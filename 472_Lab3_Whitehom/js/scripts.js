@@ -29,7 +29,7 @@ function getColorFromPopulation(population) {
     return 'red';
 }
 
-fetch('/data/hawaiiCDP_points.geojson')
+fetch('./data/hawaiiCDP_points.geojson')
     .then(r => r.json())
     .then(data => {
 
